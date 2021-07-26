@@ -1,0 +1,23 @@
+{
+  "name": "ln-cli",
+  "version": "0.0.3",
+  "description": "乐牛脚手架",
+  "main": "index.js",
+  "scripts": {
+    "lncli": "./bin/cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "lncli": "./bin/cli.js"
+  },
+  "author": "Moonshine",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^7.0.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^7.3.3",
+    "ora": "^5.3.0",
+    "progress": "^2.0.3"
+  }
+}
